@@ -4,7 +4,10 @@
 
 
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {},ᴍʏ ɴᴀᴍᴇ is <a href=https://t.me/{}>{}</a>,/nI'm LATEST ADVANCED AND POWERFUL AUTO FILTER BOT...YOU CAN ADD ME IN YOUR GROUP OR REQUEST YOUR MOVEIES IN MY GROUP <a href=https://t.me/premium_movies_request_group>Premium Movies</a></b>"""
+    START_TXT = """<b>Hᴇʟʟᴏ {},
+    ᴍʏ ɴᴀᴍᴇ is <a href=https://t.me/{}>{}</a>,
+    I'm LATEST ADVANCED AND POWERFUL AUTO FILTER BOT...YOU CAN ADD ME IN YOUR GROUP OR REQUEST YOUR MOVEIES IN MY GROUP 
+    <a href=https://t.me/premium_movies_request_group>Premium Movies</a></b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
