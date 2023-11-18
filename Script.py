@@ -207,10 +207,14 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 <b> Size ⚙️: {file_size}</b>""" 
 
+IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
-
+IMDb Data:
+<b>🏷 Title</b>: <a href={url}>{title}</a>
+🎭 Genres: {genres}
+📆 Year: <a href={url}/releaseinfo>{year}</a>
+🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
 📂 FOUND 🔥 FILES ON YOUR QUERY : {qurey}
-
 Requested by : {message.from_user.mention}</b>"""
     
     ALL_FILTERS = """
