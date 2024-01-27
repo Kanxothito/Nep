@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '21159773'))
 API_HASH = environ.get('API_HASH', '49ae08543a07335e195756eba2f56e11')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6441912221:AAGZQJjni3539iA1fMvyazdCZm79AwvP6k8")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6822388482:AAH5CFDnDS8ALNyDBWcyB-mEUDLOVF-Qx6Y")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -33,7 +33,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5886772061').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001738687057').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002024535026').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
@@ -66,7 +66,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/tech_support_channel')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Howtodownloadany')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002050926827'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002075847500'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'tech_support_group')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
